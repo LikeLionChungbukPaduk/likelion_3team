@@ -1,0 +1,33 @@
+/* 책 등록하기 */
+#submit{
+    background-color: rgb(176, 79, 172);
+    width:auto;
+    height:300px;
+    margin-top:20px;
+}
+
+#submit_img{
+    float: left;
+    background-color: bisque;
+}
+
+#preview{
+    width:250px;
+    height:250px;
+}
+
+#submit_img>:nth-child(2){
+    display:block;
+}
+
+#submit>form{
+    display:inline-block;
+}
+
+#submit_content{
+    background-color: rgb(233, 181, 234);
+}
+
+#submit_content>div{
+    margin-top:10px;
+}

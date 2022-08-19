@@ -1,0 +1,47 @@
+html{
+    /* 그라데이션 배경색 */
+}
+
+#login{
+    width:400px;
+    height:500px;
+    border: 1px solid black;
+    border-radius: 10px;
+
+    /* 화면 중앙 정렬 */
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+}
+
+.title{
+    width:auto;
+    height:50px;
+    text-align: center;
+    font-size:30px;
+    margin-top:10px;
+}
+
+.idpw{
+    width:auto;
+    height:200px;
+    background-color: grey;
+}
+
+.input-box{
+    /* width:454로 적용됐던 이유 : 크기적용(width:450px)을 padding, border는 제외하고 적용시켰기 때문 */
+    box-sizing: border-box; /*border-box: 요소의 내용 + padding + border 로 크기 계산*/
+    /* margin-left:25px; */
+    margin-top:10px;
+    padding-left:50px;
+    width:400px;
+    height:50px;
+    border:0; /*테두리 선 없애기*/
+
+    font-size:15px;
+}
+
+.input-box:nth-child(1){
+    margin-top:20px;
+}

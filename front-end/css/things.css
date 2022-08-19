@@ -1,14 +1,26 @@
 /* 책 등록하기 */
 #submit{
-    background-color: rgb(176, 79, 172);
-    width:auto;
-    height:300px;
+    width:700px;
+    height:400px;
     margin-top:20px;
+
+    
+    /* 화면 중앙 정렬 */
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+    
+    /* background-color: rgb(241, 240, 240,0.5); */
+    border-top:1px solid grey;
+    border-bottom:1px solid grey;
+    border-radius: 5px;
 }
 
 #submit_img{
     float: left;
-    background-color: bisque;
+    margin-left:70px;
+    margin-top:60px;
 }
 
 #preview{
@@ -25,9 +37,17 @@
 }
 
 #submit_content{
-    background-color: rgb(233, 181, 234);
+    margin-top:60px;
 }
 
-#submit_content>div{
-    margin-top:10px;
+#submit_content>input{
+    margin-top:20px;
+}
+
+#button{
+    margin-top:40px;
+}
+
+#button>input{
+    width:250px;
 }
